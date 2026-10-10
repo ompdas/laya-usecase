@@ -39,29 +39,16 @@ Three ideas recur across all three repos:
 ## Run everything
 
 ```bash
-# Each repo is independent. Offline tests need no model download:
-cd laya-ticket-triage && python -m unittest discover -s tests   # 7 tests
-cd ../aegis-pipeline && python -m unittest discover -s tests    # 14 tests
-cd ../laya-grader && python -m unittest discover -s tests       # 7 tests
+git clone git@github.com:ompdas/laya-usecase.git
+cd laya-usecase
+
+# Each project is self-contained. Offline tests need no model download:
+cd laya-ticket-triage && python -m unittest discover -s tests    # 7 tests
+cd ../laya-aegis-pipeline && python -m unittest discover -s tests # 14 tests
+cd ../laya-grader && python -m unittest discover -s tests        # 7 tests
 
 # Live runs need: python -m pip install laya  (downloads ~400 MB checkpoints once)
 ```
-
-## Publish all three
-
-```bash
-# with GitHub CLI:
-for repo in laya-ticket-triage aegis-pipeline laya-grader; do
-  (cd "$repo" && gh repo create "$repo" --public --source . --push)
-done
-```
-
-Or create empty repos on github.com/new and `git remote add origin … && git
-push -u origin main` in each directory.
-
-> This file also works as a GitHub **profile README** (`<username>/<username>`)
-> or the landing page of a `laya-series` repo if you'd rather present the
-> series from a single entry point.
 
 ## License
 
