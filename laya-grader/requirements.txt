@@ -1,0 +1,5 @@
+# Core: typed-decision engine + routing (PyPI: https://pypi.org/project/laya/)
+laya>=0.4.0
+
+# Optional: LLM judge comparison backend
+# pip install openai   (and set OPENAI_API_KEY)

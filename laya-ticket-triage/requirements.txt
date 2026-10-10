@@ -1,0 +1,5 @@
+# Core: typed-decision engine + routing (PyPI: https://pypi.org/project/laya/)
+laya>=0.4.0
+
+# For the HTTP service (app/main.py): pip install "laya[serve]"
+# For running tests: pip install pytest

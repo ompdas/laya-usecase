@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Local models / checkpoints (several GB; downloaded, never committed)
+models/
+
+# Env & OS
+.env
+.env.*
+.DS_Store
+Thumbs.db
+
+# Outputs
+out/
+*.log

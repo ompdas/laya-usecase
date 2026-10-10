@@ -1,0 +1,11 @@
+id,lang,query,context,response
+E-001,en,"What is the refund window for annual plans?","Annual plans can be refunded within 30 days of purchase.","Annual plans can be refunded within 30 days of purchase."
+E-002,en,"What is the refund window for annual plans?","Annual plans can be refunded within 30 days of purchase.","Annual plans can be refunded within 30 days, and you also keep a lifetime discount on renewals."
+E-003,en,"How do I export my data?","Data export is available under Settings > Account > Export.","Go to Settings, then Account, then Export to download your data."
+E-004,en,"How do I export my data?","Data export is available under Settings > Account > Export.","Our company was founded in 2015 and serves over 10,000 customers worldwide."
+E-005,en,"Can I use SSO with the Team plan?","SSO is available on the Enterprise plan only.","I cannot answer that question."
+E-006,es,"¿Cuál es la ventana de reembolso?","Los planes anuales pueden reembolsarse dentro de los 30 días de la compra.","Los planes anuales pueden reembolsarse dentro de los 30 días de la compra."
+E-007,de,"Wie exportiere ich meine Daten?","Der Datenexport steht unter Einstellungen > Konto > Export zur Verfügung.","Öffnen Sie Einstellungen, dann Konto, dann Export."
+E-008,hi,"रिफंड की अवधि क्या है?","वार्षिक योजनाएँ खरीद के 30 दिनों के भीतर रिफंड योग्य हैं।","वार्षिक योजनाएँ खरीद के 30 दिनों के भीतर रिफंड योग्य हैं।"
+E-009,en,"How do I reset my password and enable 2FA?","Password reset is under Settings > Security. 2FA can be enabled in the same section.","You can reset your password under Settings > Security."
+E-010,en,"Where can I find the API docs?","API documentation is at https://docs.example.com/api.","You can find the API docs at https://docs.example.com/api, and they cover rate limits and authentication."
